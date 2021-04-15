@@ -4,5 +4,5 @@ server:
 spring:
   cloud:    config:      server:        git:
           uri: https://github.com/fehferreira/microservice-repo-FlowerStore
-          search-paths: fornecedor
+          search-paths: fornecedor, loja, transportador
           default-label: main
